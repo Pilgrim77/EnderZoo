@@ -1,38 +1,72 @@
 //***  Ender Zoo *****//
 
 //Items
-item.itemSpawnEggEnderZoo.name=Призвать существо - 
-item.witheringDust.name=Иссушающая пыль
-item.confusingDust.name=Порошок заблуждения
-item.enderFragment.name=Фрагмент Края
-item.guardiansBow.name=Лук Стражей
+item.spawnegg.name=Призвать существо - 
+item.witheringdust.name=Пыль иссушения
+item.confusingdust.name=Порошок заблуждения
+item.enderfragment.name=Эндер-фрагмент
+item.guardiansbow.name=Лук стражей
+item.owlegg.name=Яйцо совы
 
 
 //Mobs
-entity.enderzoo.Enderminy.name=Карлик Края
-entity.enderzoo.ConcussionCreeper.name=Оглушающий крипер
-entity.enderzoo.FallenKnight.name=Падший рыцарь
-entity.enderzoo.FallenMount.name=Падший конь
-entity.enderzoo.WitherWitch.name=Ведьма-иссушитель
-entity.enderzoo.WitherCat.name=Кот-иссушитель
-entity.enderzoo.DireWolf.name=Ужасный волк
+entity.enderzoo.enderminy.name=Эндер-карлик
+entity.enderzoo.concussioncreeper.name=Оглушающий крипер
+entity.enderzoo.fallenknight.name=Павший рыцарь
+entity.enderzoo.fallenmount.name=Павший конь
+entity.enderzoo.witherwitch.name=Ведьма-иссушитель
+entity.enderzoo.withercat.name=Кот-иссушитель
+entity.enderzoo.direwolf.name=Ужасный волк
+entity.enderzoo.direslime.name=Ужасный слизень
+entity.enderzoo.owl.name=Сова
+
+//these are for the chat messages "Player was slain by", it doesnt use above versions 
+entity.enderminy.name=Эндер-карлик
+entity.concussioncreeper.name=Оглушающий крипер
+entity.fallenknight.name=Павший рыцарь
+entity.fallenmount.name=Павший конь
+entity.witherwitch.name=Ведьма-иссушитель
+entity.withercat.name=Кот-иссушитель
+entity.direwolf.name=Ужасный волк
+entity.direslime.name=Ужасный слизень
+entity.owl.name=Сова
 
 //Waila
-entity.enderzoo.Enderminy.desc.1=Нейтральный моб,
-entity.enderzoo.Enderminy.desc.2=атакует криперов
+entity.enderzoo.enderminy.desc.1=Нейтральный моб.
+entity.enderzoo.enderminy.desc.2=Атакует криперов.
 
-entity.enderzoo.ConcussionCreeper.desc.1=Не наносит урон блокам.
-entity.enderzoo.ConcussionCreeper.desc.2=Телепортирует ближайших существ,
-entity.enderzoo.ConcussionCreeper.desc.3=когда взрывается.
+entity.enderzoo.concussioncreeper.desc.1=Не наносит урон блокам.
+entity.enderzoo.concussioncreeper.desc.2=Телепортирует ближайших существ,
+entity.enderzoo.concussioncreeper.desc.3=когда взрывается.
 
-entity.enderzoo.FallenKnight.desc.1=Зомби в броне и с луком
-entity.enderzoo.WitherWitch.desc.1=Кидает зелья иссушения
+entity.enderzoo.fallenknight.desc.1=Зомби в доспехах и с луком.
+entity.enderzoo.witherwitch.desc.1=Кидает зелья иссушения.
 
 //Enchants
-enchantment.enderzoo.witherArrow=Иссушение
-enchantment.enderzoo.witherWeapon=Разложение
+enchantment.witherArrow=Иссушение
+enchantment.witherWeapon=Разложение
+
+//Potions
+enderzoo.floatingpotion=Парение
+enderzoo.floatingpotion.postfix=Зелье подъёма
+
+potion.effect.floating=Зелье подъёма
+splash_potion.effect.floating=Взрывное зелье подъёма
+lingering_potion.effect.floating=Туманное зелье подъёма
+tipped_arrow.effect.floating=Стрела подъёма
+
+potion.effect.withering=Зелье разложения
+splash_potion.effect.withering=Взрывное зелье разложения
+lingering_potion.effect.withering=Туманное зелье разложения
+tipped_arrow.effect.withering=Стрела иссушения
+
+potion.effect.confusion=Зелье заблуждения
+splash_potion.effect.confusion=Взрывное зелье заблуждения
+lingering_potion.effect.confusion=Туманное зелье заблуждения
+tipped_arrow.effect.confusion=Стрела заблуждения
+
 
 //Blocks
-tile.blockConfusingCharge.name=Заряд заблуждения
-tile.blockEnderCharge.name=Заряд Края
-tile.blockConcussionCharge.name=Оглушающий заряд
+tile.blockconfusingcharge.name=Заряд заблуждения
+tile.blockendercharge.name=Эндер-заряд
+tile.blockconcussioncharge.name=Заряд оглушения
